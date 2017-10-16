@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="30998" started-at="2017-10-16T12:02:26Z" finished-at="2017-10-16T12:02:57Z">
+    <groups>
+      <group name="windows">
+        <method signature="ApplicationStart.homeTitleTestCase()[pri:0, instance:browsers.ApplicationStart@66048bfd]" name="homeTitleTestCase" class="browsers.ApplicationStart"/>
+      </group> <!-- windows -->
+      <group name="mac">
+        <method signature="ApplicationStart.homeTitleTestCase()[pri:0, instance:browsers.ApplicationStart@66048bfd]" name="homeTitleTestCase" class="browsers.ApplicationStart"/>
+      </group> <!-- mac -->
+    </groups>
+    <test name="FirstTestApp" duration-ms="30998" started-at="2017-10-16T12:02:26Z" finished-at="2017-10-16T12:02:57Z">
+      <class name="browsers.ApplicationStart">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:browsers.ApplicationStart@66048bfd]" name="setUpBrowser" is-config="true" duration-ms="3793" started-at="2017-10-16T15:32:26Z" finished-at="2017-10-16T15:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="homeTitleTestCase()[pri:0, instance:browsers.ApplicationStart@66048bfd]" name="homeTitleTestCase" duration-ms="26367" started-at="2017-10-16T15:32:29Z" finished-at="2017-10-16T15:32:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTitleTestCase -->
+        <test-method status="PASS" signature="testTeardown()[pri:0, instance:browsers.ApplicationStart@66048bfd]" name="testTeardown" is-config="true" duration-ms="829" started-at="2017-10-16T15:32:56Z" finished-at="2017-10-16T15:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeardown -->
+      </class> <!-- browsers.ApplicationStart -->
+    </test> <!-- FirstTestApp -->
+  </suite> <!-- Default Suite -->
+</testng-results>
